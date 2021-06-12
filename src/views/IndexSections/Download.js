@@ -29,7 +29,7 @@ class Download extends React.Component {
           <Container>
             <Row className="row-grid justify-content-center">
               <Col className="text-center" lg="8">
-                <h2 className="display-3">
+                {/* <h2 className="display-3">
                   Do you love this awesome{" "}
                   <span className="text-success">
                     Design System for Bootstrap 4?
@@ -40,8 +40,8 @@ class Download extends React.Component {
                   below to navigate to Creative Tim where you can find the
                   Design System in React. Start a new project or give an old
                   Bootstrap project a new look!
-                </p>
-                <div className="btn-wrapper">
+                </p> */}
+                {/* <div className="btn-wrapper">
                   <Button
                     className="mb-3 mb-sm-0"
                     color="primary"
@@ -49,8 +49,8 @@ class Download extends React.Component {
                   >
                     Download React
                   </Button>
-                </div>
-                <div className="text-center">
+                </div> */}
+                {/* <div className="text-center">
                   <h4 className="display-4 mb-5 mt-5">
                     Available on these technologies
                   </h4>
@@ -154,7 +154,7 @@ class Download extends React.Component {
                       </UncontrolledTooltip>
                     </Col>
                   </Row>
-                </div>
+                </div> */}
               </Col>
             </Row>
           </Container>

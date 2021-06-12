@@ -46,20 +46,23 @@ class CardsFooter extends React.Component {
                   <Link to="/landing-page">
                     <CardImg
                       alt="..."
-                      src={landing}
+                      src='https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
                     />
                   </Link>
+                  
                 </Card>
+                <h4>My Portfolio Page</h4>
               </Col>
               <Col className="mb-5 mb-lg-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
                   <Link to="/profile-page">
                     <CardImg
                       alt="..."
-                      src={profile}
+                      src='https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
                     />
                   </Link>
                 </Card>
+                <h4>My Profile Page</h4>
               </Col>
             </Row>
           </Container>
@@ -67,14 +70,14 @@ class CardsFooter extends React.Component {
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                  Contact me For more details!
                 </h3>
-                <h4 className="mb-0 font-weight-light">
+                {/* <h4 className="mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
-                </h4>
+                </h4> */}
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
-                <Button
+                {/* <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
                   href="https://twitter.com/creativetim"
@@ -84,11 +87,11 @@ class CardsFooter extends React.Component {
                   <span className="btn-inner--icon">
                     <i className="fa fa-twitter" />
                   </span>
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip475038074">
+                </Button> */}
+                {/* <UncontrolledTooltip delay={0} target="tooltip475038074">
                   Follow us
-                </UncontrolledTooltip>
-                <Button
+                </UncontrolledTooltip> */}
+                {/* <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
                   href="https://www.facebook.com/creativetim"
@@ -98,8 +101,8 @@ class CardsFooter extends React.Component {
                   <span className="btn-inner--icon">
                     <i className="fa fa-facebook-square" />
                   </span>
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip837440414">
+                </Button> */}
+                {/* <UncontrolledTooltip delay={0} target="tooltip837440414">
                   Like us
                 </UncontrolledTooltip>
                 <Button
@@ -112,14 +115,14 @@ class CardsFooter extends React.Component {
                   <span className="btn-inner--icon">
                     <i className="fa fa-dribbble" />
                   </span>
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip829810202">
+                </Button> */}
+                {/* <UncontrolledTooltip delay={0} target="tooltip829810202">
                   Follow us
-                </UncontrolledTooltip>
+                </UncontrolledTooltip> */}
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/hayabalasmeh"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -128,13 +131,13 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip495507257">
-                  Star on Github
+                   Github Profile
                 </UncontrolledTooltip>
               </Col>
             </Row>
             <hr />
             <Row className="align-items-center justify-content-md-between">
-              <Col md="6">
+              {/* <Col md="6">
                 <div className="copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
@@ -157,8 +160,8 @@ class CardsFooter extends React.Component {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink
-                      href="https://www.creative-tim.com/presentation?ref=adsr-footer"
+                    <NavLink */}
+                      {/* href="https://www.creative-tim.com/presentation?ref=adsr-footer"
                       target="_blank"
                     >
                       About Us
@@ -181,7 +184,7 @@ class CardsFooter extends React.Component {
                     </NavLink>
                   </NavItem>
                 </Nav>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </footer>
